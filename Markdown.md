@@ -32,3 +32,26 @@ $ sudo npm install mocha
 </code></pre>
 
 - 사용법은 나중에 정리!
+
+### npm
+
+- npm이란 Node Package Manager의 약자다.
+- npm은 Javascript의 패키지 관리자다.
+- Node의 기본 패키지 관리자다.
+- 모아진 패키지들을 개발자는 편리하게 이용할 수 있다.
+
+<pre><code>
+$ npm install 모듈명
+//-g 옵션 : 전역모드로 설치
+
+$ npm uninstall 모듈명
+//-g 옵션 : 전역모드로 삭제
+
+$ npm undate 모듈명
+//-g 옵션 : 전역모드로 업데이트
+
+$ npm init //package.js파일 생성(기본적으로 프로젝트에 포함되지만 수동으로 생성가능)
+
+$ npm ls //설치된 모듈 확인(지역)
+$ npm ls -g --depth=0 //설치된 모듈 확인(전역)
+</code></pre>
